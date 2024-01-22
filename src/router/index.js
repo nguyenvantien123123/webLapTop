@@ -63,6 +63,34 @@ const routes = [{
             import ('../views/test.vue')
     },
 
+    {
+        path: '/users/TopBar',
+        name: 'TopBar',
+        component: () =>
+            import ('../views/TopBar.vue')
+    },
+
+    {
+        path: '/users/productdetail',
+        name: 'productdetail',
+        component: () =>
+            import ('../views/productdetail.vue')
+    },
+
+    {
+        path: '/users/FooterBar',
+        name: 'FooterBar',
+        component: () =>
+            import ('../views/FooterBar.vue')
+    },
+
+    {
+        path: '/users/index',
+        name: 'index',
+        component: () =>
+            import ('../views/indexUsers.vue')
+    },
+
 ]
 
 const router = createRouter({
